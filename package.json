@@ -1,0 +1,28 @@
+{
+  "name": "pixelart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint-init": "eslint --init",
+    "lint": "eslint --fix --ignore-path .gitignore .",
+    "doc": "jsdoc --configure jsdoc.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelbaffir/pixelart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelbaffir/pixelart/issues"
+  },
+  "homepage": "https://github.com/rafaelbaffir/pixelart#readme",
+  "devDependencies": {
+    "eslint": "^8.25.0"
+  },
+  "dependencies": {
+    "jsdoc": "^3.6.11"
+  }
+}
