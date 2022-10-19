@@ -1,5 +1,5 @@
-import ColorPicker from './colorPicker.js';
-import Grid from './grid.js';
+import colorPicker from './colorPicker.js';
+import grid from './grid.js';
 
-$('#root').append(ColorPicker());
-$('#root').append(Grid());
+$('#root').append(colorPicker());
+$('#root').append(grid());
