@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/rafaelbaffir/pixelart#readme",
   "devDependencies": {
-    "eslint": "^8.25.0"
+    "eslint": "^8.25.0",
+    "eslint-config-google": "^0.14.0"
   },
   "dependencies": {
     "jsdoc": "^3.6.11"

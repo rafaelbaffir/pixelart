@@ -6,13 +6,13 @@ export default function ColorPicker() {
   const div = $('<div></div>').addClass('colorPicker');
   colors.forEach((color) => {
     div.append($('<button></button>')
-      .addClass('pickableColor')
-      .css('background', color)
-      .on('click', function () {
-        selectedColor = color;
-        $('selected').removeClass('selected');
-        $(this).addClass('selected');
-      }));
+        .addClass('pickableColor')
+        .css('background', color)
+        .on('click', function() {
+          selectedColor = color;
+          $('selected').removeClass('selected');
+          $(this).addClass('selected');
+        }));
   });
   return div;
 }
